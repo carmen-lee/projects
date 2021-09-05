@@ -61,4 +61,4 @@ async def on_message(message):
         current_weather = get_weather()
         await message.channel.send(current_weather)
 
-client.run('ODgzOTU2NjExMzUyMjQwMTM4.YTRevw.76PbuTk9FX5pQZTJ_oKED49ts3E')
+client.run({TOKEN})
