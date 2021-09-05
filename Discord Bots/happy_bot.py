@@ -1,4 +1,4 @@
-# discord bot to do some cool stuff!
+# simple discord bot to do some cool stuff!
 # uses zenquotes.io api, openweathermap api
 # bot says hello, inspirational quotes, encouragments, and weather updates
 
@@ -9,11 +9,14 @@ import json
 
 client = discord.Client()
 
-sad_words = ['sad', 'upset', 'depressed', 'unhappy', 'angry', 'miserable']
+sad_words = ['sad', 'upset', 'depressed', 'unhappy', 'angry', 'miserable', 'terrible', 'depressing', 'unfortunate', 'stress', 'hurt']
 encouragements = [
     "Cheer up!",
     "Hang in there.",
-    "You are a great person!"
+    "You are a great person!",
+    "Don't give up!",
+    "Come on! You can do it!",
+    "Optimism is the faith that leads to achievement."
 ]
 
 def get_weather():
