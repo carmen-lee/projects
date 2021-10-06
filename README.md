@@ -8,3 +8,6 @@ Posted Projects:
 - 15 Puzzle
 
 - Sudoku Solver
+
+- Web Crawlers
+  > typingtest.py
