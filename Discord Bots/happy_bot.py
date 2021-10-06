@@ -34,7 +34,6 @@ def get_quote():
     quote = json_data[0]['q'] + ' -' + json_data[0]['a']
     return(quote)
 
-
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
