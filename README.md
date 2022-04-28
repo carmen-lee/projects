@@ -1,5 +1,5 @@
 # projects
-home to all my personal projects
+home to all my mini projects
 
 Posted Projects:
 - Discord bots
