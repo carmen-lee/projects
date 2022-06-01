@@ -10,13 +10,17 @@ import time
 chrome_options = Options()
 chrome_options.add_argument("--incognito")
 chrome_options.add_argument("--window-size=1920x1080")
+# chrome_options.add_argument('--no-sandbox')
+# chrome_options.add_argument('--disable-dev-shm-usage')
 
-DRIVER_PATH = 'C:/WebDriver/bin/chromedriver.exe'
+# DRIVER_PATH = 'C:/WebDriver/bin/chromedriver.exe'
+DRIVER_PATH = '/Users/carmenlee/Desktop/github/projects/Web Crawler/chromedriver' # update path if needed
 url = 'https://10fastfingers.com/typing-test/english'
 
 driver = webdriver.Chrome(options=chrome_options, executable_path=DRIVER_PATH)  # opens browser
+# driver.close()
 driver.get(url)     # accesses website
-time.sleep(5)       # add delay to wait for website to fully load
+time.sleep(7)       # add delay to wait for website to fully load
 active = True
 while(active):
     timer = driver.find_element_by_id('timer').text     # finds the timer
@@ -35,3 +39,5 @@ while(active):
 
 time.sleep(10)   # waits 10 secs before closing
 driver.quit()
+driver.close()
+
