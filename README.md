@@ -1,13 +1,9 @@
-# projects
-home to all my mini projects
+# Mini Projects
 
-Posted Projects:
-- Discord bots
-  > happy_bot.py
+Home to all my mini projects
 
+## Description
+- Discord Bots
 - 15 Puzzle
-
 - Sudoku Solver
-
-- Web Crawlers
-  > typingtest.py
+- Typing Test Bot
