@@ -1,9 +1,8 @@
-Discord Bots
+# Discord Bot
 
-<dl>
-  <dh>Happy Bot</dh>
-  <dd>- Implements weather API</dd>
-  <dd>- Spits cool quotes!</dd>
-  <dd>- Interactive</dd>
-</dl>
-  
+An interactive bot for you and your friends to rely on in Discord!
+
+## Description
+- Able to check the local weather forecast so that plans between you and your friends won't be ruined by bad weather.
+- Interactive and Responsive design
+- Spits cool quotes from time to time
